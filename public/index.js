@@ -29,22 +29,8 @@ const scramjet = new ScramjetController({
 		sync: "/scram/scramjet.sync.js",
 	},
 	flags: {
-		// the four you asked for, plus sourcemaps
 		sourcemaps: true,
 		destructureRewrites: true,
-		debugTrampolines: true,
-		encapsulateWorkers: true,
-		debugSourceURL: true,
-
-		// others I recall from Scramjet (may vary by version)
-		syncxhr: true,
-		strictRewrites: true,
-		rewriterLogs: true,
-		captureErrors: true,
-		cleanErrors: true,
-		scramitize: true,
-		allowInvalidJs: true,
-		allowFailedIntercepts: true,
 	},
 });
 
