@@ -28,9 +28,6 @@ const scramjet = new ScramjetController({
 		all: "/scram/scramjet.all.js",
 		sync: "/scram/scramjet.sync.js",
 	},
-	flags: {
-		sourcemaps: true
-	},
 });
 
 scramjet.init();
